@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>pessoa</title>
+    <script src="pessoas.js"></script>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body onload="carregaTabela()">
+    <h1>Pessoas</h1>
+    <button onClick="mostraFormInc()">Incluir Registro</button><br>
+    <form id="formInc">
+        Nome:<input type="text" id="nomeInc"><br>
+        Idade:<input type="text" id="idadeInc"><br>
+        <button type="button" onclick="enviaInc()">Enviar</button>
+        <button type="button" onClick="cancelaInc()">Cancelar</button>
+    </form>
+    <table id="tabPessoas"></table>    
+</body>
+</html>

@@ -1,0 +1,21 @@
+{
+  "name": "progii_aula01",
+  "version": "1.0.0",
+  "description": "Servidor node minimalista",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "nodemon"
+  },
+  "keywords": [
+    "aula",
+    "nodeServer"
+  ],
+  "author": "Marcelo Santos",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.0",
+    "mysql2": "^3.11.3",
+    "nodemon": "^3.1.7"
+  }
+}

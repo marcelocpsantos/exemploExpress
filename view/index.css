@@ -1,0 +1,11 @@
+table, td, th {
+    border : solid black 2px;
+    border-collapse: collapse;
+}
+#formInc {
+    border : solid black 2px;
+    padding: 10px;
+    margin:10px;
+    width: fit-content;
+    display:none
+}
